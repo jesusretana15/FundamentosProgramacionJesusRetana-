@@ -1,0 +1,19 @@
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+nav{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+}
