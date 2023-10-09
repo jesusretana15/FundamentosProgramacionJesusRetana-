@@ -1,6 +1,6 @@
 body{
     font-family: 'Bebas Neue', sans-serif;
-    background-image: url(/images/black-clothing.jpeg);
+    background-image: url(../images/black-clothing.jpeg);
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;

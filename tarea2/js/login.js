@@ -81,7 +81,7 @@ function validateform() {
             
             html: '<iframe src="https://lottie.host/?file=fe10b6d0-5c16-43f5-95c5-644e77d04f8a/r496Cu3QlD.json"></iframe> <br>'+ '<p class="text-white pt-4" style="font-size:30px">Cargando...</p>'
           }).then(() => {
-            window.location.href = "/landing.html", "blank";
+            window.location.href = "./landing.html", "blank";
         });
     }
 
