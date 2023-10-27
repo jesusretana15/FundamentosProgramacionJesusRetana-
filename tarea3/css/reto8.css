@@ -1,0 +1,21 @@
+.formLogin{
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.142);
+}
+
+.formLogin input, .formLogin select{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.formLogin button{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.37);
+}

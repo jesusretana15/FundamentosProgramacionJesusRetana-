@@ -1,0 +1,10 @@
+body{
+    background-color: rgba(245, 245, 220, 0.698);
+}
+
+
+#selectmenu{
+    width:50%;
+    height: 30px;
+    background-color: rgba(245, 245, 220, 0.831);
+}

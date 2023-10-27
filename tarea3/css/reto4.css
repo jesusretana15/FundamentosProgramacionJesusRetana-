@@ -1,0 +1,69 @@
+/* .jewelry{
+    height: 500px;
+    background-image: url("../imagenes/joyeria.avif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ready2wear{
+
+    height:500px;
+    background-image: url("../imagenes/readytowear.avif");
+    background-image: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.leather{
+    height:500px;
+    background-image: url("../imagenes/leathergoods.avif");
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.boxCat{
+    position: relative;
+    text-align: center;
+    color: white;
+
+    
+}
+.boxCat img{
+    box-shadow: 0px 0px 46px 25px rgba(0,0,0,0.1);
+}
+
+.readytoweartxt{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e6d9d0be;
+    color: white;
+
+    font-size: x-large;
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+  }
+
+  select {
+    font-size:large;
+    border:none;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+  }
+
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+  
+  #txtBox{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }

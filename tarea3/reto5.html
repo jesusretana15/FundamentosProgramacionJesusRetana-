@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="favicon.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Title</title>
+    <link href="./css/reto5.css" rel="stylesheet">
+    <script src="sweetalert2.all.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+    <nav class="container-fluid">
+        <div class="row text-center container-fluid">
+            <div class="col-md-4 col-lg-4"></div>
+            <div class="col-md-4 col-lg-4">
+                <img class="img-fluid text-center" src="./imagenes/apple.png" alt="" style="height: 40px;">
+            </div>
+            <div class="col-md-4 col-lg-4"></div>
+        </div>
+    </nav>
+
+    <header class="container-fluid pt-3">
+        <div class="row container-fluid text-center pt-3">
+            <h3>Elegir modelo para ver resumen</h3>
+            <div class="col-md-6 col-lg-6" id="selectOp">
+                <h5 class="pt-5">Modelo:</h5>
+                <select name="modelosOp" id="modelos">
+                    <option value="defaultModelo">Elegir modelo</option>
+                    <option value="iphone15pro">iPhone 15 Pro</option>
+                    <option value="iphone15">iPhone 15</option>
+                    <option value="iphone14">iPhone 14</option>
+                </select>
+                <h5 class="pt-5">Memoria</h5>
+                <select name="memoriaOp" id="memoria">
+                    <option value="defaultMemoria">Elegir capacidad</option>
+                    <option value="256">256GB</option>
+                    <option value="512">512GB</option>
+                    <option value="1T">1TB</option>
+                </select>
+                <button class="mt-5" onclick="calcular()">Calcular</button>
+            </div>
+
+
+            <div class="col-md-6 col-lg-6" id="imgPhone">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div id="imgDefault">
+                            <img class="img-fluid" src="./imagenes/iphonemodelos.jpg" alt="">
+                        </div>
+                    </div>
+
+
+                    <div id="eleccion">
+                        <div class=" text-center col-lg-6 col-md-6" id="imgEleccion">
+
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="container-fluid text-center" id="datosEleccion">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+
+    </section>
+
+
+
+    <footer class="fixed-bottom text-center" style="color: white; background-color: black;"><a href="./index.html"
+            style="color: white; text-decoration: none;">Volver a pagina de retos</a></footer>
+
+
+
+
+    <!-- permite la interactividad del mapeo interactivo-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+
+    <!-- https://www.image-map.net/ pagina para map imagenes  -->
+
+
+    <!-- interactividad Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- programacion -->
+
+    <!-- libreria desplegables -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+    <!-- libreria sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./js/reto5.js"></script>
+
+
+</body>
+
+</html>

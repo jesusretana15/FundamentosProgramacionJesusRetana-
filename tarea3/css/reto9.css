@@ -1,0 +1,49 @@
+
+body  {
+    background-color: white;
+    color: black;
+}
+
+nav {
+    background-color: black;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    
+}
+
+footer  p{
+    color: white;
+}
+
+
+
+body.oscuro {
+    background-color: black;
+    color: white;
+}
+
+nav.oscuro{
+    background-color: white;
+    color: white;
+}
+
+footer.oscuro{
+    background-color: white;
+    color: black;
+    
+}
+
+footer.oscuro p{
+    color: black;
+}
+
+#formOps{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,61 @@
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url(../imagenes/black-clothing.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646; 
+}
+
+/* .name{
+    font-size: 7.5rem;
+}
+
+h3{
+    font-size: 3.75rem;
+} */
+
+.contenedor-texto{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+.btn-ingresar{
+    color: white;
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-ingresar:hover{
+    text-decoration:underline;
+}
+
+input{
+    background-color: transparent;
+    border-radius: 0%;
+    border-color: white;
+}
+
+input:focus{
+    outline-width: 0;
+}
+
+.register{
+    border: 0;
+    background-color: transparent;
+}
+
+.register:hover{
+    text-decoration:underline;
+}
+
+.error{
+    border-style: dashed solid;
+}
+
+
